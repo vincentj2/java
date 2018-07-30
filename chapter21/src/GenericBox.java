@@ -8,7 +8,7 @@ class DBox<L ,R>{
 	public String toString() { return left + " & " + right;}
 }
 
-//¹®Á¦ 2¹ø
+//2ë²ˆ
 public class GenericBoc {
 
 	public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class GenericBoc {
 		System.out.println(dbox);
 	}
 }
-//¹®Á¦ 1¹ø
+//1ë²ˆ
 /**
 class DDBox<U,D>{
 	private U up;
@@ -33,7 +33,7 @@ class DDBox<U,D>{
 	public String toString() { return up + "\n" + down;}
 }
 
-public class GenericBoc {
+public class GenericBo {
 
 	public static void main(String[] args) {
 		DBox<String, Integer> box1= new DBox<>();
